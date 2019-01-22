@@ -18,6 +18,9 @@ class Character:
 
         if self.hp < 0:
             self.hp = 0
+
+            self.hp_status()
+
             print("You have died.")
             print("Game over.")
             exit()
